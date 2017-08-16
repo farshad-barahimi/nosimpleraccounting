@@ -6,7 +6,7 @@ Please use the latest version(8.1) since version 8.1 fixes a bug in total report
 
 Importing data from previous versions:
 
-https://github.com/farshad-barahimi/nosimpleraccounting/wiki/Importing-data-from-previous-versions]
+https://github.com/farshad-barahimi/nosimpleraccounting/wiki/Importing-data-from-previous-versions
 
 To download setup file for NoSimplerAccounting 8.1 (latest version) use the following link:
 
