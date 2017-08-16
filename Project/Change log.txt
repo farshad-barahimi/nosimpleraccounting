@@ -1,0 +1,34 @@
+No Simpler Accounting 8.1 :
+- Fixed a bug in total report which included incomes not in the date range specified.
+
+No Simpler Accounting 8.0 :
+-Export to excel added. Icons changed. minor changes.
+
+No Simpler Accounting 7.0 :
+-License changed from GPL to Apache License , Version 2.0
+
+No Simpler Accounting 6.0 :
+-Fixed a bug in expense category report (showing all categories).
+
+No Simpler Accounting 5.0 :
+- Help added
+- Small UI changes
+- Code refactored
+- Documention added to code
+
+No Simpler Accounting 4.0 :
+- Fixed a major bug about expense categories (Showing income categories instead of expense categories).
+- Removed DVGPrinter class and print functionality in order to reduce minimum .Net Framework to 2.0
+- Added refrencial integrity to database.
+- Updated restore in order fix problems in databases of previous versions.
+- Changed target platform to x86
+- changed backup extension to .nsa
+
+No Simpler Accounting 3.0 :
+- Fixed a a bug about administrator rights. Installer software changed.
+
+No Simpler Accounting 2.0 :
+- Fixed a small bug about showing GNU GPL license incompletely.
+
+No Simpler Accounting 1.1  beta :
+- First public release.

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Note: This software is distributed "AS IS". 
+No warranty of any kind is expressed or implied. 
+You should use this software at your own risk.
+The authors will not be liable for data loss,
+damages, loss of profits or any kind of loss 
+while using or misunsing this software.</value>
+  </data>
+  <metadata name="Icons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Icons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAC
+        IQAAAk1TRnQBSQFMAgEBAgEAAbgBAAG4AQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABIAMAAQEBAAEgBgABQEIAAwMBBAMUARsDIAEuAiEBIgExAyMBMwMgAS4DFgEfAwcBCv8A2AABAQMn
+        AToDRwGCAk8BVgHBAjABXwHoAhABagH5AgABcQH/AgABcQH/AgwBbAH6AjIBYgHpAk8BWQHDA0gBiAMr
+        AUIDBwEK/wDFAAMqAUECUAFVAbQBBQEGAWAB/QEGAQUBjgH/ASABJAG/Af8BOAE/Ad8B/wFKAVEB8gH/
+        AVcBXAH3Af8BVQFdAfcB/wFKAVIB7wH/ATcBPQHfAf8BHwEjAbsB/wEJAQoBlAH/AgABZwH/AlABVgG+
+        AzIBUQMCAQP/ALUAAw0BEgNLAZACAAFfAf8BEAEUAaAB/wE1AT8B8AH/AUUBSgH9Af8BRAFPAf0B/wFG
+        AU4B/gH/AUoBUwH9Af8BTgFWAv8BTwFZAv8BTgFYAv8BSwFUAf4B/wFIAVAB/gH/ATwBRQH6Af8BKgEw
+        AeEB/wEPARIBogH/AgABYgH/Ak8BUQGiAxgBIUQAAwIBAwMIAQsDBAEF/wBdAAMbASYCTAFYAcsBBQEK
+        AXkB/wEjASsB3QH/AR8BJQH5Af8BEgEdAe4B/wEdASUB4AH/ASgBMAHhAf8BMQE5AecB/wE3AUAB7QH/
+        AToBQwHwAf8BPAFEAfEB/wE3AT8B7wH/ATMBOgHpAf8BLAE0AeQB/wEiASkB4gH/ARsBIwHwAf8BHQEn
+        AfoB/wEeASUB3wH/AQQBBwGBAf8CQwFYAdkDJgE4PAADBAEGAy0BRQFPAWsBUgGpATgBOwE4AVwDBwEK
+        AwABAf8AUQADGgElAjwBWwHhARABFAGOAf8BIgEsAfUB/wEIAREB9AH/AQcBDgHPAf8BDQEUAcMB/wEU
+        AR0ByAH/AR4BJgHTAf8BJwEwAdsB/wEwATgB4QH/ATYBPgHlAf8BOAFAAecB/wE4AUAB5AH/AS8BNwHe
+        Af8BIQEpAdYB/wEVAR0ByQH/AQ0BFQHDAf8BCAERAcoB/wEKARMB6AH/ARoBJgHyAf8BCwERAZMB/wEw
+        ATEBVQHqAyYBODQAAwQBBQMjATMBOgFzATsB0QFZAb8BXgH/AT8BoAFBAecBMQEyATEBTQMHAQn/AE0A
+        AwoBDgJJAVgB0QEQARQBkQH/ARcBJAH3Af8BAAEFAd4B/wEEAQsBwAH/AQgBEAG7Af8BBwEPAbwB/wEM
+        ARQBwAH/ARsBIQHDAf8BGwEfAcQB/wEXARsBvwH/ARUBFwHAAf8BFwEYAcYB/wEgASEBygH/AS4BMAHP
+        Af8BOQE+AdAB/wErATIByQH/AQwBFAHAAf8BBAEOAboB/wEGAQ4BvwH/AQIBCQHWAf8BEgEaAfMB/wEL
+        ARIBlQH/AjsBWAHiAxcBICwAAwQBBgMuAUcBOwF2AT4BzwFLAb8BUQH/AZgB/wGjAf8BawHlAXQB/wFA
+        AaABRAHnATsBPgE7AWEDBwEKAwABAf8ARQACTQFOAZcBCQERAXcB/wEYASAB9AH/AgAB2AH/AQABBwG2
+        Af8BAgEKAbUB/wECAQoBuQH/AR0BJAHBAf8BQwFFAbcB/wJDAWoB4gJFAUYBfgMtAUUDHQEqAx0BKgMt
+        AUUDRwGCAUIBQwFtAdwBIAEhAakB/wE6AT8BvgH/ARoBIQHAAf8BAAEHAbYB/wEAAQgBtwH/AgABzgH/
+        AQ8BGgHwAf8BBQELAYAB/wJRAVMBrQMBAQIkAAMEAQYBJAElASQBNgE6AXABPAHPAUYBxQFOAf8BdwH/
+        AYcB/wF3Af8BhwH/AYMB/wGPAf8BdQHyAYEB/wE4AZ4BPwHnATMBNQEzAVEDBwEK/wBBAAMqAUABAQEE
+        AVkB/wEcASgB4AH/AQABAwHWAf8BAAEEAa0B/wEAAQUBrgH/AQABBwG1Af8BAAEIAbUB/wEWAR8BwAH/
+        AjUB3gH/AkkBSgGLHAACNQE2AVgCJwFxAfABMwE4AaYB/wEfASYBuwH/AQABAQGxAf8BAAEEAa0B/wEA
+        AQMByQH/ARIBHAHaAf8BAAEEAV4B/wM3AVogAAMEAQYBLAEtASwBRAE5AXABOwHQATgBugFBAf8BYAH8
+        AW8B/wFeAf0BbQH/AWEB/gFwAf8BZwH/AXUB/wFwAf8BfQH/AVQB4wFeAf8BNgGdATgB5wE5ATwBOQFf
+        AwcBCgMAAQH/ADkAAk8BWAHDARUBHgGlAf8BBQEMAecB/wEAAQEBowH/AQABBAGaAf8BAAEDAaUB/wEA
+        AQQBrwH/AQABBgGzAf8BAAEHAbMB/wEAAQgBvwH/AgEB6AH/Ak8BVAGlAwQBBRgAAw8BFAJJAV4B0AEu
+        ATQBlAH/ARUBHQGxAf8CAAGeAf8BAAECAZ4B/wEAAQkB1wH/AQ0BEwGiAf8CRgFZAdcDBwEKGAADBAEF
+        ASQBJQEkATYBMwFtATYB0gE/AbkBSAH/AVMB9QFiAf8BUQHyAWAB/wFTAfQBYgH/AWsB+AF4Af8BWQH6
+        AWgB/wFaAfwBaQH/AV8B/gFvAf8BXAHyAWgB/wEwAZkBMgHoATMBNAEzAVEDBwEK/wA1AAIhASIBMQEB
+        AQUBWwH/ARoBIQHjAf8CAAGxAf8BAAEDAYoB/wEAAQMBkgH/AQABCAGdAf8BAAEDAaQB/wEAAQMBrwH/
+        AQABBgGzAf8BAAEIAbEB/wEBAQgBuwH/AgAB2wH/Ak8BUwGgAwMBBBgAAwkBDAEyATMBYAHrATIBOAGS
+        Af8BBAEJAZwB/wEAAQEBiwH/AQABAQGgAf8BDgEWAdYB/wEBAQYBYQH/Ay4BSBQAAwQBBQMtAUYBNgFu
+        AToBzwEvAbABOQH/AUcB6QFWAf8BRAHnAVMB/wFWAesBZAH/AXgB8QGFAf8BhgHzAZAB/wFvAfQBewH/
+        AVEB8gFgAf8BUwH1AWIB/wFYAfkBZwH/AUQB3wFPAf8BMAGYATUB5gE5AT0BOgFhAwcBCgMAAQH/AC0A
+        A0UBfQENARcBhwH/AQsBDwHdAf8CAAGLAf8BAAECAXgB/wEAAQMBigH/AUsBTwGoAf8BEwEbAZYB/wEA
+        AQEBpAH/AQABBAGsAf8BAAEDAa8B/wEAAQYBsQH/AQABBwG5Af8BAAECAcgB/wJJAUoBiwMAAQEYAAMv
+        AUkBEQEXAWAB/wEhAScBkgH/AgABggH/AQABAQF7Af8BBAEJAcEB/wEKARABigH/Ak0BTgGXEAADBAEF
+        AyMBNAE2AWkBOgHOATMBswE/Af8BOgHaAUkB/wEzAdgBQgH/AV4B4gFrAf8BjAHsAZUB/wGGAewBkAH/
+        AYIB7QGNAf8BgQHvAYsB/wFtAe4BeQH/AUoB7AFZAf8BTQHuAVwB/wFRAfIBYQH/AVIB5wFeAf8BLwGO
+        ATIB5gExATMBMQFPAwcBCv8ALQACTwFaAcgBFwEdAa0B/wEAAQMBsAH/AQABAQFrAf8CAAFtAf8BBgEM
+        AYwB/wJSAWQBzwJRAVoBvQEAAQUBhgH/AQABBAGhAf8BAAEEAaIB/wEAAQQBpgH/AQABBAGpAf8BAQEJ
+        AbEB/wEAAQUBtAH/A0sBjgMCAQMYAAFNAU8BVwHCASQBKwFtAf8BAQEHAXoB/wEAAQEBZwH/AgABmQH/
+        AQwBFgGuAf8BPQFBAVYB3gMEAQUIAAMEAQYDLQFGAUIBbAFGAdIBLAGmATcB/wEoAcwBOAH/AT4B0QFM
+        Af8BdwHgAYMB/wGMAeYBlQH/AYgB5gGRAf8BhQHnAY4B/wGSAewBmwH/AYIB6QGLAf8BewHpAYgB/wFm
+        AegBcQH/AUIB5AFRAf8BRQHnAVUB/wFKAesBWQH/AT4BzgFJAf8BKAF+ASoB6QE5ATwBOQFhAwcBCgMA
+        AQH/ACEAAwoBDgEbAR0BWAH1ARkBIAHVAf8CAAGKAf8BAAEBAVkB/wEAAQIBZQH/AQABBgGOAf8DOQFf
+        BAACTwFaAcEBAAEFAYUB/wEAAQQBmgH/AQABBAGbAf8BAAEEAZ8B/wEAAQQBogH/AQQBDAGpAf8BAwEK
+        AZ8B/wJLAUwBkAMCAQMUAAI1ATYBWAESARsBTwH/AQ4BEwFuAf8CAAFZAf8CAAFtAf8BCwERAbsB/wEA
+        AQQBWgH/AxgBIgQAAwQBBQEkASUBJAE2AVcBcwFYAdEBTwGvAVgB/wEYAbwBJwH/AUYBygFSAf8BkwHg
+        AZoB/wGQAeEBmAH/AYwB4QGUAf8BiQHhAZEB/wGIAeIBkQH/AZQB1QGYAf8BhAHjAY0B/wF5AeMBhQH/
+        AXcB5QGEAf8BZQHjAXEB/wE7Ad0BSgH/AT4B3wFNAf8BQgHkAVEB/wFIAdYBVAH/ASYBbwEnAegBMgEz
+        ATIBUAMHAQr/ACEAAxsBJgEFAQ0BWwH/ARQBHAHqAf8CAAFmAf8CAAFHAf8BAAEFAWMB/wEBAQYBjgH/
+        Ax0BKgQAAwEBAgFQAVEBXAG+AQABCAGQAf8BAAEFAaAB/wEAAQMBowH/AQABBAGnAf8BAAEEAawB/wEL
+        ARABsgH/AQgBDQGPAf8CTAFOAZQDBAEFEAADFgEfAQYBDgFCAf8BEgEXAWIB/wIAAVIB/wIAAU8B/wEH
+        AQ4BsAH/AQIBCAFjAf8DJgE5AwEBAgEqASsBKgFBAW0BhgFwAdABVgG1AV8B/wEdAbMBKwH/AWkBzgFy
+        Af8BnAHfAaIB/wGWAd4BnQH/AZEB3QGYAf8BjgHdAZYB/wGPAd8BlgH/AVABxgFbAf4BNQF6ATcB0wF9
+        AcoBhgH3AXsB3wGHAf8BdgHfAYEB/wF0AeABfQH/AVoB3AFmAf8BNAHUAUMB/wE1AdcBRAH/AToB3AFJ
+        Af8BMQG1ATsB/wEnAWUBKwHlATkBOwE5AWEDBwEKAwABAf8AGQADIwE0AQoBEAFjAf8BDwEUAdsB/wIA
+        AUUB/wIAATwB/wEFAQoBbQH/ARIBFgGAAfoDEQEXCwABAQJQAV4BvwEFAQ4BpwH/AQABBwG2Af8BAAED
+        AbUB/wEAAQUBtgH/AQABBAG6Af8BDgEXAbwB/wELARMBdgH/AUwCTQGWAwQBBQwAAwcBCQEqAS4BTAHv
+        ARABFgFsAf8CAAFvAf8CAAFcAf8BBQEKAasB/wEEAQoBbAH/AywBRAMCAQMBRAFWAUQBowF7AbUBgAH/
+        ATkBsgFEAf8BqwHfAbAB/wGkAd4BqQH/AZwB3AGiAf8BmAHbAZ4B/wGTAdoBmgH/AZQB3AGbAf8BTgHE
+        AVkB/wFAAXUBRQG/AxYBHwFMAV4BTwGaAUUBxwFRAf8BegHbAYUB/wFxAdkBewH/AXAB2wF6Af8BWgHW
+        AWYB/wErAcwBOgH/AS4BzgE9Af8BMQHVAUAB/wE3Ab4BQgH/ASQBXAEmAecDMQFOAwcBCv8AGQADJQE3
+        AQsBEQFjAf8BCgERAdYB/wIAAVsB/wIAAWQB/wEMARABkwH/ARsBHAGHAfcDEAEWEAACUAFeAbwBCwES
+        AbUB/wEBAQkBuAH/AQABBAG4Af8BAAEFAbgB/wEAAQQBuwH/ARQBGwG9Af8BDwEZAW0B/wJNAU4BmAMF
+        AQcIAAMHAQkBLwEzAVEB7AELAREBcwH/AgABiQH/AgABegH/AQQBCAHBAf8BBAELAYwB/wMtAUYDAAEB
+        Ay4BSAF4AZ4BeQHiAakB2QGvAf8BsgHcAbcB/wGoAdoBrQH/AaIB2QGnAf8BnAHYAaIB/wGdAdoBowH/
+        AU4BvwFYAf8BPwFzAUMBwAMdASoDAQECAxIBGQFGAVwBSAGaAUEBuQFOAfgBeAHWAYMB/wFuAdUBdwH/
+        AWsB1QF1Af8BTgHPAVsB/wEiAcMBMQH/ASQBxgE0Af8BKAHMATgB/wEkAZ8BLgH/ASEBVgElAegBOAE5
+        ATgBXwMHAQoDAAEB/wARAAMdASkBCAEOAXsB/wEOARYB6QH/AgABiAH/AgABdgH/AQ8BEwGaAf8BBgEK
+        AZgB/wMcASgUAAJQAWABuwESARgBvgH/AQEBCgG3Af8BAAEBAboB/wEAAQUBugH/AQABAgG+Af8BFwEf
+        AcAB/wEQARkBcAH/Ak4BTwGcAwQBBgQAAxQBHAEAAQcBQQH/AQUBDAF6Af8BAAEBAYwB/wIAAYIB/wEG
+        AQoBwwH/AQQBCgGOAf8DKAE9BAADAgEDASEBIgEhATEBRgGMAU0B4AGaAdMBoQH/AbUB2gG6Af8BqQHV
+        Aa0B/wGqAdcBrgH/AU0BugFXAf8BPgFwAUIBvQMOARMDAAEBCAADBwEJAUUBWgFHAZcBNAG6AUAB/wF1
+        AdIBfQH/AWkBzwFyAf8BaAHQAXEB/wFPAckBWgH/ARkBugEoAf8BHAG9ASsB/wEfAcMBLwH/ASoBrwE2
+        Af8BJQFVASgB5gEyATMBMgFRAwgBC/8AEQADDQERAQwBEgGBAf0BFAEZAd4B/wIAAZIB/wIAAYAB/wEO
+        ARMBmgH/AQ4BEgGnAf8DOAFeGAACUAFgAbgBFwEeAckB/wEFAQwBvQH/AQABBAG8Af8BAAEEAbwB/wIA
+        Ab8B/wEYASIBwwH/ARIBHQFxAf8CTgFPAZsDAQECAy0BRQEAAQcBRAH/AQEBBgGPAf8BAAECAZEB/wIA
+        AYsB/wEJAQ0BywH/AQEBBwGGAf8DGAEiCAADAgEDATABMQEwAUwBLAGJATIB4QGHAc4BjwH/AdEB5gHV
+        Af8BWAG9AWAB/wE9AW8BQAG/Ax4BKwMAAQEQAAMSARkBRAFbAUcBmwE7Aa8BRQH4AXEBzgF5Af8BZgHL
+        AW8B/wFkAcsBbQH/AUIBwQFPAf8BEAGxAR8B/wESAbMBIQH/ARUBuQEkAf8BGwGZASYB/wElAVIBKQHm
+        ATgBOQE4AV8DBwEKAwABAf8ADQABRAFGAWcB2gEcASQBzwH/AQgBCwGsAf8BBwEKAZAB/wESARYBnQH/
+        AR8BIwG0Af8CUQFXAbMcAAJRAV8BtgEkAScB2QH/ARMBGgHCAf8BBAEOAcIB/wEIAQ4BwQH/AQYBCgHB
+        Af8BKwEvAcwB/wEXASIBcgH/A0wBkwJRAVQBqwEHAQ8BWQH/AQgBDQGmAf8BCAENAZsB/wEEAQkBogH/
+        ARcBHAHRAf8BMgEzAWsB6wMCAQMMAAMCAQMDIwEzAT4BkwFGAeMBhQHHAYgB/wE+AXMBQwHCAw4BEwMA
+        AQEYAAMHAQoBRAFbAUUBnAEpAawBNQH/AW0BxwF2Af8BYQHEAWoB/wFfAcYBaAH/AUMBvAFOAf8BBgGo
+        ARUB/wEJAaoBGAH/AQwBrwEbAf8BHwGiASsB/wEmAVMBKwHkATABMQEwAU0DBwEJ/wANAAJMAU4BlAEj
+        ASoBwAH/AR8BIQHJAf8BGAEbAaAB/wEYARwBpAH/ATIBNgG6Af8BAQEFAZcB/wMtAUUcAAFQAVEBXwG0
+        AS4BMgHfAf8BKAEtAckB/wEWAR0BxwH/ARgBHgHGAf8BEwEbAckB/wE3AT0BzAH/ATcBPQGLAf8BOQE9
+        AWgB/wEaASABkwH/ARgBHQG0Af8BGAEdAaUB/wEhASABxQH/AR8BKQHLAf8CUAFSAacUAAMCAQMBLAEt
+        ASwCRAFVAUUBlQMcASgDAAEBHwABAQMSARkBRAFXAUUBlwE5AZ8BPgH4AXABvwF3Af8BYwG8AWsB/wFf
+        Ab0BaAH/AToBsQFFAf8BAAGcAQ4B/wEAAZ8BDwH/AQIBpAERAf8BEgGPAR0B/wFJAW4BTgHlAToBOwE6
+        AWADBwEKAwABAf8ABQADKgFBARcBIAGnAf8BOAE6AeUB/wElAScBtQH/ASUBKQGtAf8BNwE7AbwB/wEk
+        ASgBtQH/AkwBXgHLAw0BERwAAk4BbQHGAT4BQgHfAf8BNAE5Ac4B/wEjASkBywH/AScBLQHLAf8BHwEm
+        AcsB/wFTAVkB0QH/AWUBaQGxAf8BIwEoAbsB/wEnASsBuAH/ASUBKQGyAf8BNwE7AecB/wEUAR0BqgH/
+        AzIBUEwAAwcBCgFEAVcBRQGXAS8BpQE6Af8BcQG2AXkB/wFkAbMBbAH/AWEBswFpAf8BQQGoAUsB/wEB
+        AYwBDAH/AQABjwEMAf8BAAGTAQoB/wEhAZsBLQH/AWUBgAFlAeUBLwEwAS8BSwMGAQj/AAkAAjwBbwHj
+        AUYBTQHmAf8BNwE7AdgB/wE2AToBvgH/ATUBOQHCAf8BSwFPAcgB/wEMARABogH/Ak8BUwGpAw0BEhgA
+        AwUBBwJOAW8BxwFIAUoB6AH/AUMBSgHUAf8BMgE4AdMB/wE1ATgB0QH/ATQBOQHPAf8BNwE7Ac4B/wE1
+        ATkByAH/ATUBOQHCAf8BOAE7AdMB/wFBAUoB6gH/ASgBKgFwAe8DBgEIUAADEgEZAUUBWQFFAZoBPgGg
+        AUUB+AF0AbMBeQH/AWYBrQFtAf8BYwGsAWoB/wE6AZkBQwH/AQABeQEKAf8BAAF8AQoB/wEAAYEBBQH/
+        ATABegE2Af8BNgFRATYBzgMPART/AAkAAzcBWwEjASsBuAH/AVwBYwH2Af8BRQFIAdUB/wFFAUkBzQH/
+        AUsBTwHTAf8BUQFVAcoB/wEKAQ0BmwH/Ak4BWgHAAygBPBwAAlABZQG/AlwB8wH/AU8BVQHdAf8BRAFK
+        AdkB/wFGAUsB2AH/AUUBSgHXAf8BRgFLAdYB/wFEAUkB1QH/AV4BYAH3Af8BHwEoAb8B/wI9AT4BalgA
+        AwcBCQFEAVgBRQGYATABpwE7Af8BdwGyAXwB/wFnAaoBbgH/AWQBqQFrAf8BRQGXAU0B/wEAAWwBBwH/
+        AR0BgAEnAf8BEwFaARcB9QEwATEBMAFNAwMBBP8ADQACTgFjAcoBTAFUAeAB/wFnAWoB9AH/AVQBVQHe
+        Af8BVAFYAd0B/wFcAV8B4gH/AV0BYgHRAf8BHQEhAaAB/wIWAXQB9wJPAVEBoAMzAVIDHQEpAxQBHAMU
+        BBwBJwMvAUoCTQFQAZ4CUgHEAf8BeAF7AeYB/wFTAVgB5AH/AVUBWgHjAf8BVQFaAeIB/wFVAVcB4AH/
+        AWYBbAH3Af8BSQFQAegB/wJJAWcB1V8AAQEDEwEaAUMBVwFFAZkBQAGgAUUB+QF4AbABgAH/AWoBqAFw
+        Af8BZgGmAWwB/wFAAZMBSAH/ARQBaAEZAfYBOgE9ATsBZgMDAQQDAAEB/wANAAMWAR4BDgESAZcB/AFo
+        AXEB9AH/AXQBdwH8Af8BYwFoAegB/wFkAWgB6AH/AWgBbQHsAf8BcAF0AeQB/wFLAU8BuwH/ARkBHgGT
+        Af8BAAEEAXgB/wElASYBZgHvAjwBYgHhAj4BYgHgASIBJAFhAfABAAEEAWUB/wEgAScBeQH/AU0BUwGv
+        Af8BZQFqAekB/wFlAWoB7wH/AWUBagHsAf8BZQFoAeoB/wF1AXgB+gH/AWYBbQH2Af8BBQEJAZ4B/wMb
+        ASZjAAEBAwcBCgFDAVcBRQGZATYBqAFBAf8BfQGwAYQB/wGAAbQBhQH/AU8BlQFTAfQBMwE0ATMBUwMD
+        AQT/ABkAAygBPQEKARIBsAH/AXgBggH4Af8CkwH9Af8BdQF5AfIB/wF0AXgB8AH/AXUBeQH0Af8BgAGE
+        AfcB/wF7AYMB6gH/AWcBawHOAf8BUQFWAbYB/wFDAUoBpQH/AUIBSgGjAf8BTAFSAa8B/wFcAWMBxwH/
+        AW8BdAHnAf8BeQGBAfgB/wF3AXsB9QH/AXYBeQHzAf8BdgF4AfQB/wGRAZQB/QH/AXIBggH6Af8BDAER
+        Aa4B/wMvAUpsAAMSARgBRAFXAUUBmAE+AZoBRwH3AXABrAFzAfMBOwE9ATwBZAMCAQP/ACEAAykBPwEK
+        AQ0BqgH+AWYBbgHzAf8BqAGtAf4B/wGTAZcB/QH/AYgBjAH1Af8BigGNAfcB/wGMAY8B+wH/AY8BkgH6
+        Af8BkwGVAfwB/wGTAZgB/AH/AZQBlwH9Af8BlQGWAf0B/wGSAZYB/AH/AZABkgH5Af8BjAGPAfcB/wGM
+        AY4B9wH/AZYBlwH5Af8BpwGvAf4B/wFoAW4B9gH/AQYBCAGtAf8DMAFLcwABAQMHAQoBPwFFAT8BdQEu
+        Ai8BSQMDAQT/ACkAAxsBJgJHAW8B0wE5AT4B2gH/AZYBnAH8Af8BuwG/Af4B/wGwAbQB/QH/AaABowH6
+        Af8BmwGdAfoB/wGaAZ4B+gH/AZkBnAH6Af8BlwGaAfoB/wGaAZkB+AH/AZ0BngH5Af8BowGmAfoB/wGw
+        AbMB/QH/AbUBtgH+Af8BlwGdAfsB/wE3AT8B3wH/AkQBcgHaAx4BK3sABAEBAgMBAQIDAAEB/wAxAANB
+        AXIBJQEpAZ0B8gE+AUMB4QH/AY0BjwH7Af8ByAHNAv8B5QHkAv8B5gHkAv8B3gHgAv8C3gL/Ad8B4AH+
+        Af8B2AHaAv8ByAHMAf4B/wGOAZMB+wH/AT4BRAHiAf8BGwEcAaEB9gNCAXb/AMUAAwcBCQM6AWICTwFm
+        AcMBEAEUAbwB/AEiASoB2wH/ATwBRQHmAf8BTAFUAe8B/wFMAVMB7AH/AT4BRgHmAf8BJgEuAdoB/wEJ
+        AQ0BxwH/Ak8BZAHEAzwBZgMJAQz/ANUAAwkBDAMhATADMwFTAzwBZgM8AWYCNAE1AVUDIwE0AwoBDv8A
+        sQABQgFNAT4HAAE+AwABKAMAAYADAAEgAwABAQEAAQEGAAECFgAD/wEAAf8B8AEPBf8IAAH/AYABAQX/
+        CAAB/wIAAX8E/wgAAfwCAAE/Af8B4wL/CAAB+AIAAR8B/wHAAv8IAAHwAgABDwH/AYAC/wgAAeACAAEH
+        Af8BAAE/Af8IAAHgAgABAwH+AQABPwH/CAABwAEHAfABAwH8AQABDwH/CAABwAEBAfgBAQH4AQABDwH/
+        CAABgAEAAfwBAQHwAQABAwH/CAABgAEAAX4BAQHgAQABAwH/CAABgAEAAT8BAAHAAgAB/wkAAYABHwEA
+        AYACAAH/CQABgAEPBAABPwkAAcABBwQAAT8JAAHwAQMEAAEPCQAB+AEBAQABgAEMAQABDwkAAfwCAAHA
+        AR4BAAEDCAABgAH+AgAB4AE/AQABAwgAAYABfwEAAQEB8AF/CgABgAE/AYABAQL/AcAJAAHAAR8BgAEB
+        Av8B4AkAAcABDwHgAQMC/wHwCQAB4AIAAQcC/wHwCQAB4AIAAQcC/wH4AQMIAAHwAgABDwL/Af4BBwgA
+        AfgCAAEfAv8B/gEPCAAB/AIAAT8D/wEPCAAB/wIABf8IAAH/AYABAQX/CAAB/wHwAQ8F/wgACw==
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>This software is licensed under Apache License , Version 2.0 :
+
+                                                     Apache License
+                                               Version 2.0, January 2004
+                                            http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.</value>
+  </data>
+</root>
